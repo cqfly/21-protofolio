@@ -1,0 +1,259 @@
+/* text */
+h1,h2,h3,h4,h5,h6{
+    font-family: lato, sans-serif;
+}
+/*nav------------------*/
+.customNav{
+   
+        position: fixed;
+        width: 100%;
+        background-color: black;
+        z-index: 10;
+     
+}
+
+
+h3{
+  color: red;
+  font-weight: 200;
+}
+
+.d-inline-block{
+  margin-left: 4rem;
+}
+
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 10% !important;
+  }
+
+.navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+    
+  }
+
+  .nav-item {
+    margin: 0px 15px;
+  }
+  a.nav-link :hover {
+      color: red;
+      font-size:150%;
+  }
+
+  
+.customNav a {
+    color: white !important;
+  }
+
+
+  .jumboground{
+    margin:0;
+  }
+
+
+
+
+
+
+
+/* jumbottron----------------------*/
+
+.jumboground{
+    background-color: black;
+    border-radius: 0;
+    text-align: center;
+    display:inline-block;
+    
+  }
+
+  .row padding{
+    margin-left: 100px;
+  }
+
+  .jumbo1{
+    display: inline-block;
+     
+    color:white;
+    padding: 5%;
+     
+     text-align: left;
+  }
+
+  h1{
+    margin-top:2rem;
+  }
+
+  .img-fluid{
+       right:0 !important;
+      display: inline-block;
+      margin: 5rem auto 0 1rem;
+      animation-name: float;
+      animation: float 2s ease-in-out infinite;
+      transform: translatey(0px);
+     }
+ .hire{
+   left: 4rem;
+ }
+  .btn{
+  
+    border-radius: 23px;
+  
+    margin: 4rem 2rem 2rem 8rem;
+    
+  }
+
+
+  @keyframes float {
+    0% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+    }
+    50% {
+      box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+      transform: translatey(-80px);
+    }
+    100% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+    }
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%; 
+  }
+/* Cards----------------------*/
+.project{
+  background: #2e2e2e;
+}
+
+
+
+
+h5{
+  color:white;
+  margin-top:0rem;
+}
+
+P{
+  color:gray;
+}
+
+.card{
+      margin: auto;
+      margin-top:0px;
+
+}
+
+.btn{
+  margin:0;
+}
+
+
+
+.card-body{
+  float:right;
+  margin-top: 3.5rem;
+  margin-left:3.5rem;
+}
+
+.row:first-child{ 
+  margin-top:0 rem;
+
+}
+
+
+
+
+
+.card:first-child {
+  border-top:0px;
+}
+
+
+.card{
+  background-color:#2e2e2e;
+  border-radius: 0px;
+  border-top:1px solid white;
+  border-left:0;
+  border-right:0;
+  border-bottom: 0;
+  padding: 60px 0 60px 0;
+  }
+
+.card :first-child {
+  border-top:0;
+}
+.card-body a {
+  background-color: red;
+  border:0;
+}  
+
+.no-gutters{
+  margin:3rem;
+}
+
+/* footer----------------------*/
+.social{
+  height:10rem;
+  text-align: center;
+  
+}
+
+.social a{
+  background-color: #ff0000;
+  color:white;
+  margin: 4rem 3rem ;
+  
+  
+}
+
+ .about{
+   background-color: black;
+ }
+
+ .social btn{
+   margin:0;
+ }
+
+
+
+
+@media(max-with: 992px) {
+
+}
+
+@media(max-with: 768px) {
+    
+}
+
+@media(max-with: 576px) {
+
+
+  h5{
+    
+    margin:0;
+  }
+
+  .card-title {
+    margin:0 ;
+  }
+
+  .imgPro {
+    float: left;
+    margin: 1rem auto;
+}
+   .col-md-4 col-sm-12{
+  float:right;
+  margin-top: 0rem;
+}
+   .card-body{
+     margin-top: 0 !important;
+     padding:0;
+   }
+
+
+
+}
