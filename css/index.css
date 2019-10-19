@@ -256,14 +256,17 @@ P{
 
    
 
+   i {
+     margin: 2rem 1rem;
+   }
 
 .social a{
     background-color: #ff0000;
     color: white;
-    margin: 2rem 1rem !important;
+    margin: 1rem 1rem !important;
     
     }
 
-
-
 }
+
+
