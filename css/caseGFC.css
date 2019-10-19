@@ -230,6 +230,10 @@ p{
         
             margin-bottom: 4rem;
         }
+
+        section img{
+            min-width: 100%;
+        }
     }  
 
    
