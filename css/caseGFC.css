@@ -1,0 +1,253 @@
+
+/*nav------------------*/
+.customNav{
+   
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 10;
+ 
+}
+
+
+h3{
+color: red;
+font-weight: 200;
+}
+
+.d-inline-block{
+margin-left: 4rem;
+}
+
+
+.navbar-nav {
+margin-left: auto;
+margin-right: 10% !important;
+}
+
+.navbar-brand img {
+padding-right: 15px;
+width: 65px;
+
+}
+
+.nav-item {
+margin: 0px 15px;
+}
+a.nav-link :hover {
+  color: red;
+  font-size:150%;
+}
+
+
+.customNav a {
+color: white !important;
+}
+
+
+
+
+
+.title{
+    padding-top:5rem;
+}
+
+h1 {
+    width: 60%;
+    text-align: center;
+    
+
+    margin:auto;
+    
+    padding: 2rem 5rem;
+
+    
+}
+h3{width: 60%;
+    text-align: center;
+    color: darkolivegreen;
+    font-weight: 250;
+
+    margin:auto;
+    
+    padding: 1rem 5rem;
+
+
+}
+
+p{
+    width: 60%;
+    
+
+    margin:auto;
+    
+    padding:2rem  5rem;
+
+    }
+
+
+    section.main{
+        
+        margin-bottom: 8rem;
+    }
+
+    .card p{
+        margin:auto;
+    }
+    h5{
+        margin: auto !important;
+    }
+
+    .allimage{
+        display:inline-block;
+        text-align: center;
+    }
+    section img{
+        margin:auto;
+        text-align: center;
+        padding:4rem;
+    }
+
+    
+/* footer----------------------*/
+.social{
+    height:10rem;
+    text-align: center;
+    
+  }
+  
+  .social a{
+    background-color: #ff0000;
+    color:white;
+    margin: 4rem 3rem ;
+    
+    
+  }
+  
+   .about{
+     background-color: black;
+   }
+  
+   .social btn{
+     margin:0;
+   }
+
+
+   .card{
+       display:inline-block;
+       padding:3rem;
+       margin:0 1rem 0 1rem;
+   }
+
+   .card p{
+    margin:auto;
+    
+    padding:1.5rem  2rem;
+
+   }
+    .card-body{
+        margin-top: 6rem;
+        margin-left:3rem;
+    }
+
+    .card{
+       border: 0;
+    }
+
+ @media only screen and  (max-width : 870px){
+    h1 {
+        width: 80%;
+        text-align: center;
+        
+    
+        margin:auto;
+        
+        padding: 2rem 5rem;
+    
+        
+    }
+    h3{width: 80%;
+        text-align: center;
+        color: darkolivegreen;
+        font-weight: 250;
+    
+        margin:auto;
+        
+        padding: 1rem 5rem;
+    
+    
+    }
+    
+    p{
+        width: 80%;
+        
+    
+        margin:auto;
+        
+        padding:2rem  5rem;
+        }
+
+
+ }    
+    
+ 
+ 
+ @media only screen and  (max-width : 570px){
+        h1 {
+            width: 100%;
+            text-align: center;
+            font-size: 2rem;
+        
+            margin:auto;
+            
+            padding: 2rem 2rem;
+        
+            
+        }
+        h3{width: 100%;
+            text-align: center;
+            color: darkolivegreen;
+            font-weight: 250;
+        
+            margin:auto;
+            
+            padding: 1rem 2rem;
+        
+        
+        }
+        
+        p{
+            width: 100%;
+            
+        
+            margin:auto;
+            
+            padding:2rem  2.5rem;
+        
+            
+        }
+        section.main{
+        
+            margin-bottom: 4rem;
+        }
+    }  
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -90,7 +90,7 @@ h3{
       display: inline-block;
       margin: 5rem auto 0 1rem;
       animation-name: float;
-      animation: float 2s ease-in-out infinite;
+      animation: float 3s ease-in-out infinite;
       transform: translatey(0px);
      }
  .hire{
@@ -112,7 +112,7 @@ h3{
     }
     50% {
       box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-      transform: translatey(-80px);
+      transform: translatey(-40px);
     }
     100% {
       box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);

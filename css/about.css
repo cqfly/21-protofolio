@@ -95,3 +95,26 @@ p{
    margin-bottom: 5rem;
    
  }
+
+ /* footer----------------------*/
+.social{
+  height:10rem;
+  text-align: center;
+  
+}
+
+.social a{
+  background-color: #ff0000;
+  color:white;
+  margin: 1rem 3rem ;
+  
+  
+}
+
+ .about{
+   background-color: black;
+ }
+
+ .social btn{
+   margin:0;
+ }
