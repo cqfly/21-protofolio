@@ -66,14 +66,20 @@ h1 {
 
     
 }
+
+ h2{
+     margin-left:20%;
+     padding:3rem;
+ }
 h3{width: 60%;
     text-align: center;
     color: darkolivegreen;
     font-weight: 250;
+    font-size: 1.5rem;
 
     margin:auto;
     
-    padding: 1rem 5rem;
+    padding: 0rem 5rem;
 
 
 }
@@ -84,7 +90,7 @@ p{
 
     margin:auto;
     
-    padding:2rem  5rem;
+    padding:1rem  5rem;
 
     }
 
