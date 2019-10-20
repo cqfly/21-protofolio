@@ -96,11 +96,11 @@ h3{
  .hire{
    left: 4rem;
  }
-  .btn{
+.btn{
   
     border-radius: 23px;
   
-    margin: 4rem 2rem 2rem 8rem;
+    margin: 4rem 1rem 2rem 8rem;
     
   }
 
@@ -244,11 +244,11 @@ P{
   .imgPro {
     float: left;
     margin: 1rem auto;
-}
+   }
    .col-md-4 col-sm-12{
   float:right;
   margin-top: 0rem;
-}
+   }
    .card-body{
      margin-top: 0 !important;
      padding:0;
@@ -257,13 +257,13 @@ P{
    
 
    i {
-     margin: 2rem 1rem;
+     margin: 0rem 0rem;
    }
 
-.social a{
+ .social .btn{
     background-color: #ff0000;
     color: white;
-    margin: 1rem 1rem !important;
+    margin: 0rem 0rem ;
     
     }
 
