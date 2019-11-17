@@ -221,15 +221,15 @@ P{
 
 
 
-@media(max-with: 992px) {
+@media(max-width: 992px) {
 
 }
 
-@media(max-with: 768px) {
+@media(max-width: 768px) {
     
 }
 
-@media(max-with: 576px) {
+@media(max-width: 576px) {
 
 
   h5{
@@ -260,13 +260,14 @@ P{
      margin: 0rem 0rem;
    }
 
- .social .btn{
+  }
+ .social a{
     background-color: #ff0000;
     color: white;
-    margin: 0rem 0rem ;
+    margin: 2.5rem 10% ;
     
     }
 
-}
+
 
 
